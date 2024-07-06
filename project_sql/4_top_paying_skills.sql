@@ -14,7 +14,8 @@ INNER JOIN skills_job_dim ON skills_job_dim.job_id = job_postings_fact.job_id
 INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 WHERE
     job_title_short = 'Machine Learning Engineer' AND
-    salary_year_avg IS NOT NULL
+    salary_year_avg IS NOT NULL AND 
+    job_location LIKE '%, CA'
 GROUP BY
     skills
 ORDER BY

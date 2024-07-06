@@ -1,6 +1,6 @@
 /*
 Question: What are the top-paying machine learning engineer jobs?
-- Identify the top 10 highest-paying machine learning roles that are available remotely.
+- Identify the top 10 highest-paying machine learning roles that are available in California.
 - Focuses on job postings with specified salaries (remove nulls).
 - Why? Highlight the top-paying for machine learning engineers, offering insights into employment opportunities by location.
 */
